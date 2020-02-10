@@ -32,8 +32,14 @@
 
 def naming_system
  life_on_earth = {
-   
- }
+  label: "Kingdom",
+  sub_category: {
+    label: "Phylum",
+    sub_category: {
+      label: "Class"
+    }
+  }
+}
 
 end
  # Remember:
